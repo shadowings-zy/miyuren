@@ -1,7 +1,7 @@
 # 来当个谜语人吧
 
 一款能够使用自定义密钥来进行加密和解密文字的 web 应用。
-在线地址：[Rollup](https://rollupjs.org)
+在线地址：[http://www.shadowingszy.top/miyuren/index.html](http://www.shadowingszy.top/miyuren/index.html)
 
 ## 开发指南
 

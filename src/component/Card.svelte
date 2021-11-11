@@ -8,9 +8,12 @@
     Button,
     Dialog,
     Snackbar,
+    Menu,
+    List,
+    ListItem,
   } from "svelte-materialify";
 
-  let secretKey = "";
+  let secretKey = "歪比吧卜";
   let plainText = "";
   let cipherText = "";
   let warningText = "";
@@ -152,16 +155,10 @@
         </Textarea>
       </Col>
     </Row>
-    <Row>
+    <Row class="align-center">
       <Col>
-        <TextField
-          clearable
-          outlined
-          {rules}
-          bind:value={secretKey}
-          placeholder="密钥（最少2个字符，最多10个字符）"
-        >
-          密钥
+        <TextField outlined {rules} bind:value={secretKey} placeholder="密钥">
+          密钥（3-10个字符）
         </TextField>
       </Col>
     </Row>
